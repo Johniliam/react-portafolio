@@ -1,43 +1,122 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div {
+  display: block;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .background {
-  background-color: #61dafb;
-  flex: 1;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  position: absolute;
+  background: rgb(26, 24, 27);
+  background: linear-gradient(
+    0deg,
+    rgba(26, 24, 27, 1) 0%,
+    rgba(0, 116, 112, 1) 100%
+  );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image {
+  background-image: url("images/code-image.jpg");
+  height: 75%;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: auto;
+  overflow: hidden;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 90%;
+  max-width: 1000%;
+  height: 100%;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.blur {
+  display: inline-block;
+  padding: 20px 80px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  line-height: 1;
+  backdrop-filter: blur(10px);
+}
+
+.nombre {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #eee;
+}
+
+.profesion {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.clearfix {
+  clear: both;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#content {
+  float: left;
+  width: calc(80% - 20px);
+  background-color: green;
+  min-height: 490px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.article {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.article:first-child {
+  border-top: 1px solid #eee;
+}
+
+.article h2 {
+  font-size: 25px;
+}
+
+aside {
+  float: left;
+  width: calc(20% - 20px);
+  background-color: orange;
+  min-height: 470px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
 }
