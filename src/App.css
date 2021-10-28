@@ -3,8 +3,17 @@
   padding: 0px;
 }
 
+body {
+  display: block;
+}
+
 div {
   display: block;
+}
+
+img {
+  width: 40%;
+  height: auto;
 }
 
 h1 {
@@ -18,11 +27,8 @@ h1 {
 }
 
 .background {
-  width: 100%;
-  height: 100%;
   flex-wrap: wrap;
-  position: absolute;
-  background: rgb(26, 24, 27);
+  width: 100%;
   background: linear-gradient(
     0deg,
     rgba(26, 24, 27, 1) 0%,
@@ -32,7 +38,7 @@ h1 {
 
 .image {
   background-image: url("images/code-image.jpg");
-  height: 75%;
+  height: 400px;
   width: 100%;
 }
 
@@ -73,6 +79,66 @@ h1 {
   color: white;
 }
 
+.info {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -70px;
+}
+
+.pictureContainer {
+  width: 180px;
+  height: 180px;
+}
+
+.me {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+
+.presentation {
+  margin-top: 20px;
+  width: 60%;
+  text-align: center;
+  word-wrap: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.saludo {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-fill-color: #cfb5a0;
+}
+
+.texto {
+  padding-top: 10px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.boxes {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.proyects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: red;
+}
+
 .clearfix {
   clear: both;
 }
@@ -103,20 +169,43 @@ h1 {
   font-size: 25px;
 }
 
-aside {
-  float: left;
-  width: calc(20% - 20px);
-  background-color: orange;
-  min-height: 470px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 30px;
+footer {
+  color: #eee;
+  margin-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  height: 50px;
-  line-height: 50px;
+/* PROYECT CONTAINER CCS */
+
+.proyectImage {
+  height: 70%;
+  background-color: green;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 800px) {
+  .proyectBox {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex: 1 0 40%;
+    background-color: coral;
+    border: 1px solid black;
+  }
+}
+
+/* Movile */
+
+@media only screen and (min-width: 100px) {
+  .proyectBox {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex: 1 0 40%;
+    background-color: coral;
+    border: 1px solid black;
+    overflow: hidden;
+  }
 }
