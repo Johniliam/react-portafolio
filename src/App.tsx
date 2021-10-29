@@ -2,7 +2,9 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import meImg from './images/me.jpg'
-import movieAppImg from './images/movies-app.png'
+import movieAppImg from './images/moviesNBG.png'
+import pokedexAppImg from './images/pokedexNBG.png'
+import mrBeastWebImg from './images/mrBeastPC.png'
 import './App.css';
 import ProyectContainer from './components/Proyect';
 
@@ -31,13 +33,11 @@ const App = () => {
             <div className='texto'>Im a senior student in software development, i have been working with the framework react in movile and web proyects, also have experience with unity and .NET Core</div>
           </div>
         </div>
-        <div className='boxes'>
-          <div className='proyects'>
-            <ProyectContainer alt='Pokedex' image={meImg} code={'https://github.com/Johniliam/React-native/tree/main/07-Pokedex'} />
-            <ProyectContainer alt='Pokedex' image={meImg} code={'https://github.com/Johniliam/React-native/tree/main/07-Pokedex'} />
-            <ProyectContainer alt='Movie App' image={movieAppImg} code={'https://github.com/Johniliam/React-native/tree/main/05-MoviesApp'} />
-            <ProyectContainer alt='Movie App' image={movieAppImg} code={'https://github.com/Johniliam/React-native/tree/main/05-MoviesApp'} />
-          </div>
+        <div className='proyects'>
+          <ProyectContainer alt='mrBeast1' image={mrBeastWebImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'}/>
+          <ProyectContainer alt='mrBeast2' image={mrBeastWebImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'} />
+          <ProyectContainer alt='Movie App' image={movieAppImg} code={'https://github.com/Johniliam/React-native/tree/main/05-MoviesApp'} type={'movile'} />
+          <ProyectContainer alt='Pokedex App' image={pokedexAppImg} code={'https://github.com/Johniliam/React-native/tree/main/07-Pokedex'} type={'movile'} />
         </div>
         <div className='skills'></div>
         <div className='contact'></div>

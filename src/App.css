@@ -12,8 +12,9 @@ div {
 }
 
 img {
-  width: 40%;
+  width: 100%;
   height: auto;
+  display: block;
 }
 
 h1 {
@@ -126,47 +127,19 @@ h1 {
 }
 
 .boxes {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: aqua;
 }
 
 .proyects {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: red;
 }
 
 .clearfix {
   clear: both;
-}
-
-#content {
-  float: left;
-  width: calc(80% - 20px);
-  background-color: green;
-  min-height: 490px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.article {
-  color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
-
-.article:first-child {
-  border-top: 1px solid #eee;
-}
-
-.article h2 {
-  font-size: 25px;
 }
 
 footer {
@@ -178,34 +151,54 @@ footer {
 
 /* PROYECT CONTAINER CCS */
 
-.proyectImage {
-  height: 70%;
-  background-color: green;
+.proyectBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  flex: 1 0 44%;
+}
+
+.proyectDescription {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Desktop */
 
-@media only screen and (min-width: 800px) {
-  .proyectBox {
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 20px;
-    flex: 1 0 40%;
-    background-color: coral;
-    border: 1px solid black;
-  }
+.desktop {
+  width: 95%;
 }
 
-/* Movile */
+.movile {
+  width: 50%;
+  margin-left: 20px;
+}
 
-@media only screen and (min-width: 100px) {
-  .proyectBox {
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 20px;
-    flex: 1 0 40%;
-    background-color: coral;
-    border: 1px solid black;
-    overflow: hidden;
-  }
+/* Buttons */
+
+.buttonWhite {
+  background-color: transparent;
+  border-radius: 42px;
+  border: 3px solid #f0f6fc;
+  display: inline-block;
+  cursor: pointer;
+  color: #f0f6fc;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 5px 5px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
+}
+.buttonWhite:hover {
+  background-color: transparent;
+}
+.buttonWhite:active {
+  position: relative;
+  top: 1px;
 }
