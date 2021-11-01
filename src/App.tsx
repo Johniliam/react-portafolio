@@ -35,14 +35,14 @@ const App = () => {
             <div className='texto'>Im a senior student in software development, i have been working with the framework react in movile and web proyects, also have experience with unity and .NET Core</div>
           </div>
         </div>
-        <div className='title'>Proyectos</div>
+        <div className='title'>Proyects</div>
         <div className='proyects'>
           <ProyectContainer alt='soon' image={comingSoonImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'}/>
           <ProyectContainer alt='soon 2' image={comingSoonImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'} />
           <ProyectContainer alt='Movie App' image={movieAppImg} code={'https://github.com/Johniliam/React-native/tree/main/05-MoviesApp'} type={'movile'} />
           <ProyectContainer alt='Pokedex App' image={pokedexAppImg} code={'https://github.com/Johniliam/React-native/tree/main/07-Pokedex'} type={'movile'} />
         </div>
-        <div className='title'>Habilidades</div>
+        <div className='title'>Skills</div>
         <div className='skills'>
           <SkillsContainer/>
         </div>
