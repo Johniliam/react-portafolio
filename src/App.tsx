@@ -1,13 +1,12 @@
-import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './App.css';
 import React from 'react';
 import meImg from './images/me.jpg'
 import movieAppImg from './images/moviesNBG.png'
 import pokedexAppImg from './images/pokedexNBG.png'
 import comingSoonImg from './images/comingSoon.png'
-import './App.css';
 import ProyectContainer from './components/Proyect';
-import SocialContainer from './components/Social/SocialContainer';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SkillsContainer from './components/Skills/SkillsContainer';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
