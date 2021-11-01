@@ -17,6 +17,11 @@ img {
   display: block;
 }
 
+p {
+  color: #f0f6fc;
+  text-align: center;
+}
+
 h1 {
   display: block;
   font-size: 2em;
@@ -126,7 +131,15 @@ h1 {
   font-size: 20px;
 }
 
-.boxes {
+.title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    "Times New Roman", Times, serif;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  color: #eee;
 }
 
 .proyects {
@@ -136,6 +149,22 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.skills {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contact {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .clearfix {
@@ -151,7 +180,7 @@ footer {
 
 /* PROYECT CONTAINER CCS */
 
-.proyectBox {
+.contentBox {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -188,10 +217,10 @@ footer {
   font-size: 17px;
   padding: 5px 5px;
   padding-top: 7px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 9px;
+  padding-right: 9px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #000000;
 }
@@ -201,4 +230,32 @@ footer {
 .buttonWhite:active {
   position: relative;
   top: 1px;
+}
+
+/* SKILLS CONTAINER CCS */
+
+@media screen and (max-width: 830px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 25%;
+  }
+}
+
+.blueBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.skillIcon {
+  color: #f0f6fc;
+  margin: 10px;
+}
+
+.skillIcon:hover {
+  transform: rotate(10deg);
 }

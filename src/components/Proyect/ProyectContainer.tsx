@@ -15,7 +15,7 @@ interface Props{
 const ProyectContainer = ( {image, alt, type, code, webUrl}: Props) => {
     return (
         <>
-            <div className='proyectBox'>
+            <div className='contentBox'>
                 <img src={image} alt={alt} className={type}/>
                 <div className='proyectDescription'>
                     <a href={code} className='buttonWhite'><FontAwesomeIcon icon={faGithub}/></a>
