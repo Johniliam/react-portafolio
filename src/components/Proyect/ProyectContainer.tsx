@@ -1,5 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faCode, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
+import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -20,7 +20,7 @@ const ProyectContainer = ( {image, alt, type, code, webUrl}: Props) => {
                 <div className='proyectDescription'>
                     <a href={code} className='buttonWhite'><FontAwesomeIcon icon={faGithub}/></a>
                     {
-                            (webUrl != null) ? <a href={webUrl} className='buttonWhite'><FontAwesomeIcon icon={faGlobeAmericas}/></a> : <a></a>
+                            (webUrl != null) ? <a href={webUrl} className='buttonWhite'><FontAwesomeIcon icon={faGlobeAmericas}/></a> : <></>
                     }    
                 </div>
             </div>

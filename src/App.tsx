@@ -7,7 +7,6 @@ import pokedexAppImg from './images/pokedexNBG.png'
 import comingSoonImg from './images/comingSoon.png'
 import './App.css';
 import ProyectContainer from './components/Proyect';
-import SocialContainer from './components/Social/SocialContainer';
 import SkillsContainer from './components/Skills/SkillsContainer';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
