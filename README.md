@@ -1,6 +1,6 @@
 ### `Portafolio`
 
-Web page create to show my work
+Web page created to show my work.
 
 Deployed page at https://johniliam.github.io/react-portafolio/
 
