@@ -52,6 +52,7 @@ h1 {
 
 .image {
   background-image: url("images/code-image.jpg");
+  background-position: center;
   height: 400px;
   width: 100%;
 }
