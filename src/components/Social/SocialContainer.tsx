@@ -10,7 +10,7 @@ interface Props {
 const SocialContainer = ( {url, icon}: Props) => {
     return (
         <>
-            <a href={url} className='buttonWhite'><FontAwesomeIcon icon={icon}/></a>
+            <a href={url} target="_blank" rel="noreferrer" className='buttonWhite'><FontAwesomeIcon icon={icon}/></a>
         </>
     )
 }

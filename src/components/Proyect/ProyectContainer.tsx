@@ -18,9 +18,9 @@ const ProyectContainer = ( {image, alt, type, code, webUrl}: Props) => {
             <div className='contentBox'>
                 <img src={image} alt={alt} className={type}/>
                 <div className='proyectDescription'>
-                    <a href={code} className='buttonWhite'><FontAwesomeIcon icon={faGithub}/></a>
+                    <a href={code} target="_blank" rel="noreferrer" className='buttonWhite'><FontAwesomeIcon icon={faGithub}/></a>
                     {
-                            (webUrl != null) ? <a href={webUrl} className='buttonWhite'><FontAwesomeIcon icon={faGlobeAmericas}/></a> : <></>
+                            (webUrl != null) ? <a href={webUrl} target="_blank" rel="noreferrer" className='buttonWhite'><FontAwesomeIcon icon={faGlobeAmericas}/></a> : <></>
                     }    
                 </div>
             </div>

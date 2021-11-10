@@ -9,6 +9,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SkillsContainer from './components/Skills/SkillsContainer';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import SocialContainer from './components/Social';
 
 const App = () => {
   return (
@@ -32,10 +33,10 @@ const App = () => {
           </div>
           <div className='presentation'>
             <div className='saludo'>Hello There!</div>
-            <div className='texto'>Im a senior student in software development, i have been working with the framework react in movile and web proyects, also have experience with unity and .NET Core</div>
+            <div className='texto'>I'm a Senior student in software development, I have experience working with the React framework in mobile and web projects, I also have experience with Unity and .NET Core</div>
           </div>
         </div>
-        <div className='title'>Proyects</div>
+        <div className='title'>Projects</div>
         <div className='proyects'>
           <ProyectContainer alt='soon' image={comingSoonImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'}/>
           <ProyectContainer alt='soon 2' image={comingSoonImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'} />
@@ -47,9 +48,9 @@ const App = () => {
           <SkillsContainer/>
         </div>
         <div className='contact'>
-          <a href='https://www.linkedin.com/in/johnatan-iliam-ramirez-luna-9ba52a1b1/' className='buttonWhite'><FontAwesomeIcon icon={faLinkedin}/></a>
-          <a href='https://github.com/Johniliam' className='buttonWhite'><FontAwesomeIcon icon={faGithub}/></a>
-          <a href='https://www.facebook.com/Johniliam07' className='buttonWhite'><FontAwesomeIcon icon={faFacebook}/></a>
+          <SocialContainer url='https://www.linkedin.com/in/johnatan-iliam-ramirez-luna-9ba52a1b1/' icon={faLinkedin}/>
+          <SocialContainer url='https://github.com/Johniliam' icon={faGithub}/>
+          <SocialContainer url='https://www.facebook.com/Johniliam07' icon={faFacebook}/>
         </div>
         <footer>©2021 All Rights Reserved.</footer>
       </div>
