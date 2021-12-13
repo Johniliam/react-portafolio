@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portafolio/static/css/main.96add173.chunk.css",
-    "main.js": "/react-portafolio/static/js/main.9f3f4aa3.chunk.js",
-    "main.js.map": "/react-portafolio/static/js/main.9f3f4aa3.chunk.js.map",
+    "main.js": "/react-portafolio/static/js/main.fa7aa0f1.chunk.js",
+    "main.js.map": "/react-portafolio/static/js/main.fa7aa0f1.chunk.js.map",
     "runtime-main.js": "/react-portafolio/static/js/runtime-main.04579461.js",
     "runtime-main.js.map": "/react-portafolio/static/js/runtime-main.04579461.js.map",
     "static/js/2.2a2d37fc.chunk.js": "/react-portafolio/static/js/2.2a2d37fc.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.2a2d37fc.chunk.js.LICENSE.txt": "/react-portafolio/static/js/2.2a2d37fc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-portafolio/static/media/code-image.64e60390.jpg",
     "static/media/comingSoon.395b007c.png": "/react-portafolio/static/media/comingSoon.395b007c.png",
+    "static/media/esquinaCDMXpc.61057b73.png": "/react-portafolio/static/media/esquinaCDMXpc.61057b73.png",
     "static/media/me.d13389f7.jpg": "/react-portafolio/static/media/me.d13389f7.jpg",
     "static/media/moviesNBG.9564b351.png": "/react-portafolio/static/media/moviesNBG.9564b351.png",
     "static/media/pokedexNBG.088e0daa.png": "/react-portafolio/static/media/pokedexNBG.088e0daa.png"
@@ -22,6 +23,6 @@
     "static/js/runtime-main.04579461.js",
     "static/js/2.2a2d37fc.chunk.js",
     "static/css/main.96add173.chunk.css",
-    "static/js/main.9f3f4aa3.chunk.js"
+    "static/js/main.fa7aa0f1.chunk.js"
   ]
 }
