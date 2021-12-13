@@ -4,6 +4,7 @@ import meImg from './images/me.jpg'
 import movieAppImg from './images/moviesNBG.png'
 import pokedexAppImg from './images/pokedexNBG.png'
 import comingSoonImg from './images/comingSoon.png'
+import esquinaCDMX from './images/esquinaCDMXpc.png'
 import ProyectContainer from './components/Proyect';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,7 +39,7 @@ const App = () => {
         </div>
         <div className='title'>Projects</div>
         <div className='proyects'>
-          <ProyectContainer alt='soon' image={comingSoonImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'}/>
+          <ProyectContainer alt='soon' image={esquinaCDMX} code={'https://github.com/Johniliam/esquina-cdmx'} webUrl={'https://johniliam.github.io/esquina-cdmx/'} type={'desktop'}/>
           <ProyectContainer alt='soon 2' image={comingSoonImg} code={'https://github.com/Johniliam'} webUrl={'https://github.com/Johniliam/react-portafolio'} type={'desktop'} />
           <ProyectContainer alt='Movie App' image={movieAppImg} code={'https://github.com/Johniliam/React-native/tree/main/05-MoviesApp'} type={'movile'} />
           <ProyectContainer alt='Pokedex App' image={pokedexAppImg} code={'https://github.com/Johniliam/React-native/tree/main/07-Pokedex'} type={'movile'} />
